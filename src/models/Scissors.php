@@ -2,12 +2,12 @@
 
 namespace App\Models;
 
-class Rock {
+class Scissors {
     private $type;
 
     public function __construct()
     {
-        $this->type = "Rock";
+        $this->type = "Scissors";
     }
 
     public function getType()

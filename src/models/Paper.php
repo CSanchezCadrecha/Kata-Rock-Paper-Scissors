@@ -2,12 +2,12 @@
 
 namespace App\Models;
 
-class Rock {
+class Paper {
     private $type;
 
     public function __construct()
     {
-        $this->type = "Rock";
+        $this->type = "Paper";
     }
 
     public function getType()
