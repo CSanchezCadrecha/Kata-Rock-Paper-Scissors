@@ -2,16 +2,18 @@
 
 namespace App\Models;
 
-class Scissors {
-    private $type;
+use App\Models\Figure;
+
+class Scissors extends Figure{
+
 
     public function __construct()
     {
         $this->type = "Scissors";
     }
 
-    public function getType()
+    /* public function getType()
     {
         return $this->type;
-    }
-}
+    } */
+} 

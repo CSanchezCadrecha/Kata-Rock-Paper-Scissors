@@ -2,16 +2,17 @@
 
 namespace App\Models;
 
-class Rock {
-    private $type;
+use App\Models\Figure;
+
+class Rock extends Figure{
 
     public function __construct()
     {
         $this->type = "Rock";
     }
 
-    public function getType()
+   /*  public function getType()
     {
         return $this->type;
-    }
+    } */
 }
