@@ -17,7 +17,7 @@ class PlayerTest extends TestCase
 
         $player->chose("Rock");
 
-        $this->$this->assertEquals($rock, $player->getFigure());
+        $this->assertEquals($rock, $player->getFigure());
     }
 
     /** @test */
@@ -28,7 +28,7 @@ class PlayerTest extends TestCase
 
         $player->chose("Scissors");
 
-        $this->$this->assertEquals($scissors, $player->getFigure());
+        $this->assertEquals($scissors, $player->getFigure());
     }
 
  }

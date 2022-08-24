@@ -2,14 +2,13 @@
 
 namespace App\Models;
 
-class Player{
+class Player {
 
-    private  $figure;
+    private $figure;
 
     public function getFigure()
     {
-        return $this->figure;
-        
+        return $this->figure; 
     }
 
     public function chose(string $figure)

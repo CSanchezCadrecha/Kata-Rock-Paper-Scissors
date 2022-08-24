@@ -15,7 +15,7 @@ class RockTest extends TestCase
         //When
         $result = $rock->getType();
         //Then
-        $this->$this->assertEquals("Rock", $result);
+        $this->assertEquals("Rock", $result);
     }
     
 }
